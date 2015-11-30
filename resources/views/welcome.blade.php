@@ -15,8 +15,7 @@
                 padding: 0;
                 width: 100%;
                 display: table;
-                font-weight: 100;
-                font-family: 'Lato';
+                font-family: Helvetica Neue, Helvetica, sans-serif;
             }
 
             .container {
@@ -31,15 +30,43 @@
             }
 
             .title {
-                font-size: 96px;
+                font-size: 66px;
+                font-family: 'Lato';
+                font-weight: 100;
+            }
+
+            .instructions{
+               text-align: left;
+                line-height: 1.4em;
+            }
+
+            code{
+                font-weight: bold;
             }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Instructies</div>
+                <ul class="instructions">
+                    <li>Zorg voor een mini-app met 2 pagina's</li>
+                    <li><code>route <a href="/deadlines/add">/deadlines/add</a></code>: Toevoegen aan databank via formulier:
+                        <ul>
+                            <li>Naam vak (vb: PHP2)</li>
+                            <li>Naam opdracht (vb: Dribbble project)</li>
+                            <li>Naam docent (vb: J. Hens)</li>
+                            <li>Datum van deadline (vb: 24/12/2015)</li>
+                        </ul>
+                    </li>
+                    <li><code>route <a href="/deadlines">/deadlines/</a></code> toont u alle deadlines in chronologische volgorde (oudste bovenaan)</li>
+                    <li>Indien de deadline reeds voorbij is, doorstreept u automatisch de deadline</li>
+                    <li>Zorg voor een filter (voorbije deadlines / actieve deadlines)</li>
+                    <li>Zorg voor minstens drie records (1 in verleden en 2 in de toekomst)</li>
+                </ul>
             </div>
+
+
         </div>
     </body>
 </html>
