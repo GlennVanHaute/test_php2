@@ -51,7 +51,6 @@
                 <div class="title">Instructies</div>
                 <ul class="instructions">
                     <li>Zorg voor een mini-app met 2 pagina's</li>
-                    <li>Gebruik als databanknaam "vagrant"</li>
                     <li><code>route <a href="/deadlines/add">/deadlines/add</a></code>: Toevoegen aan databank via formulier:
                         <ul>
                             <li>Naam vak (vb: PHP2)</li>
