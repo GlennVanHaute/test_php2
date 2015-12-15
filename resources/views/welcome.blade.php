@@ -61,7 +61,6 @@
                         </ul>
                     </li>
                     <li><code>route <a href="/deadlines">/deadlines/</a></code> toont u alle deadlines in chronologische volgorde (oudste bovenaan)</li>
-                    <li>Indien de deadline reeds voorbij is, doorstreept u automatisch de deadline</li>
                     <li>Zorg voor een filter (voorbije deadlines / actieve deadlines)</li>
                     <li>Zorg voor minstens drie records (1 in verleden en 2 in de toekomst)</li>
                 </ul>
